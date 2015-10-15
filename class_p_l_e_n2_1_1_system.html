@@ -215,8 +215,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>入力シリアルインスタンスの取得メソッド </p>
-<dl class="section return"><dt>Returns</dt><dd>入力シリアルインスタンスの参照</dd></dl>
-<dl class="section attention"><dt>Attention</dt><dd>このメソッドにより取得される入力シリアルインスタンスは、 実行タイミングによって異なる可能性が存在します。 つまり、戻り値をキャッシュして使い回した際の動作は不定となります。 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>入力シリアルインスタンスの参照 </dd></dl>
 
 </div>
 </div>
@@ -294,7 +293,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>タイマ1割り込みの禁止メソッド </p>
-<dl class="section attention"><dt>Attention</dt><dd>突然PWM信号が遮断されることで、意図しない角度に回転するサーボモータは多いです。 そのため、単純にサーボモータの動きを止めるためにこのメソッドを使うことは推奨されません。 </dd></dl>
+<dl class="section attention"><dt>Attention</dt><dd>サーボモータへのPWM信号が突然遮断されると、多くの場合意図しない角度に回転してしまいます。 そのため、単純にサーボモータの動きを止めるためにこのメソッドを使うことは推奨されません。 </dd></dl>
 
 </div>
 </div>
@@ -322,7 +321,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Oct 10 2015 20:30:07 for PLEN2 - Firmware for Arduino (Atmega32u4) by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 15 2015 16:12:49 for PLEN2 - Firmware for Arduino (Atmega32u4) by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

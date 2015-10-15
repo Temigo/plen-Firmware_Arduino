@@ -189,7 +189,18 @@ Static Public Attributes</h2></td></tr>
 <div class="textblock"><p>関節の管理クラス </p>
 <dl class="section note"><dt>Note</dt><dd>Atmega32u4では、ひとつのタイマでPWM信号を最大3ラインまで出力可能です。 1ラインに8出力のマルチプレクサを接続することで、計24個までのサーボモータを制御可能です。 <br />
 <br />
- PLEN2で用いるサーボモータの許容最小パルス幅は約0.86[msec]，許容最大パルス幅は約2.12[msec]と、 それぞれ実測値として確認されています。また、その際の可動範囲は約130[deg]となります。 ただし、本実装では個体差を考慮して少なめの可動範囲約120[deg]に見積もっています。 </dd></dl>
+ なお、PLEN1.4における各種PWM，角度の設定は以下の通りです。 <div class="fragment"><div class="line"><span class="keyword">inline</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="class_p_l_e_n2_1_1_joint_controller.html#ac0bfbb89354e2585b25a3ddb0d603154">PWM_MIN</a>()       { <span class="keywordflow">return</span> 492;  }</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">inline</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="class_p_l_e_n2_1_1_joint_controller.html#a2d993a0cbdb6c0ab65e80cc332b0b165">PWM_MAX</a>()       { <span class="keywordflow">return</span> 816;  }</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">inline</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="class_p_l_e_n2_1_1_joint_controller.html#a5ce057bfd382f6356d4711ef23d0fe09">PWM_NEUTRAL</a>()   { <span class="keywordflow">return</span> 654;  }</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">inline</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="class_p_l_e_n2_1_1_joint_controller.html#aaff3e39fb54ee0753f913229bbc6d867">ANGLE_MIN</a>()     { <span class="keywordflow">return</span> -600; }</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">inline</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="class_p_l_e_n2_1_1_joint_controller.html#aab8640b56ac45c7ab4af5de2b6d84d36">ANGLE_MAX</a>()     { <span class="keywordflow">return</span> 600;  }</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">inline</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="class_p_l_e_n2_1_1_joint_controller.html#a1112c7c0fb943c3162424e56e6071f8a">ANGLE_NEUTRAL</a>() { <span class="keywordflow">return</span> 0;    }</div>
+</div><!-- fragment --> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a1c849e7c817d6120f93a6e064bb515a9"></a>
 <div class="memitem">
@@ -803,7 +814,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Oct 10 2015 20:30:07 for PLEN2 - Firmware for Arduino (Atmega32u4) by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 15 2015 16:12:49 for PLEN2 - Firmware for Arduino (Atmega32u4) by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.9.1
 </small></address>

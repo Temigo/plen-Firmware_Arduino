@@ -12,6 +12,7 @@ var searchData=
   ['slot_5fbegin',['SLOT_BEGIN',['../class_p_l_e_n2_1_1_external_e_e_p_r_o_m.html#a55774d18f2c3dae0f4bf0de4eea051f8',1,'PLEN2::ExternalEEPROM::SLOT_BEGIN()'],['../class_p_l_e_n2_1_1_motion_controller_1_1_header.html#a2601b735d884050394613bc0e4572180',1,'PLEN2::MotionController::Header::SLOT_BEGIN()']]],
   ['slot_5fend',['SLOT_END',['../class_p_l_e_n2_1_1_external_e_e_p_r_o_m.html#a28ffae86330d6b0d694428c557a5bc8e',1,'PLEN2::ExternalEEPROM::SLOT_END()'],['../class_p_l_e_n2_1_1_motion_controller_1_1_header.html#a440fede195df0b127142376ce5b3961a',1,'PLEN2::MotionController::Header::SLOT_END()']]],
   ['slot_5fsize',['SLOT_SIZE',['../class_p_l_e_n2_1_1_external_e_e_p_r_o_m.html#ae098aa0ab911e6f366eb91e82cfda436',1,'PLEN2::ExternalEEPROM']]],
+  ['soul',['Soul',['../class_p_l_e_n2_1_1_soul.html#af99044c1afc9527a577dcdd0837f1650',1,'PLEN2::Soul']]],
   ['stop',['stop',['../class_p_l_e_n2_1_1_motion_controller.html#a729bf985cf9091bb5a9a47546c54f86b',1,'PLEN2::MotionController']]],
   ['stopping',['stopping',['../class_p_l_e_n2_1_1_motion_controller.html#a38b85900ab6ce76406a7768f8617c5bf',1,'PLEN2::MotionController']]],
   ['stringgrouppurser',['StringGroupPurser',['../class_utility_1_1_string_group_purser.html#a361725e2924921356b795e9d81608742',1,'Utility::StringGroupPurser']]],
