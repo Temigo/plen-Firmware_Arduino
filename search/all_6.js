@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['firmware_2eh',['firmware.h',['../firmware_8h.html',1,'']]],
-  ['frame',['Frame',['../class_p_l_e_n2_1_1_motion_controller_1_1_frame.html',1,'PLEN2::MotionController']]],
-  ['frame_5fbegin',['FRAME_BEGIN',['../class_p_l_e_n2_1_1_motion_controller_1_1_frame.html#af52c62f0a0768b4c3f5e341b4e4ab4cf',1,'PLEN2::MotionController::Frame']]],
-  ['frame_5fend',['FRAME_END',['../class_p_l_e_n2_1_1_motion_controller_1_1_frame.html#ad2cf19d7215684703926280a7cc49f28',1,'PLEN2::MotionController::Frame']]],
-  ['frame_5flength',['frame_length',['../class_p_l_e_n2_1_1_motion_controller_1_1_header.html#a70846833834f58b496bf8932d9627693',1,'PLEN2::MotionController::Header']]],
-  ['framelength_5fmax',['FRAMELENGTH_MAX',['../class_p_l_e_n2_1_1_motion_controller_1_1_header.html#ae35e0fbf3134df2ed05b2c0a0e21cbea',1,'PLEN2::MotionController::Header']]],
-  ['framelength_5fmin',['FRAMELENGTH_MIN',['../class_p_l_e_n2_1_1_motion_controller_1_1_header.html#abcc9d5c0fea38ab28821ef63e2081800',1,'PLEN2::MotionController::Header']]],
-  ['frameupdatable',['frameUpdatable',['../class_p_l_e_n2_1_1_motion_controller.html#aa5fe3b0f097d862ab2a9a654df7822e2',1,'PLEN2::MotionController']]],
-  ['frameupdate',['frameUpdate',['../class_p_l_e_n2_1_1_motion_controller.html#aabf4f4b1af6684604bae647519ebcc78',1,'PLEN2::MotionController']]],
-  ['frameupdatefinished',['frameUpdateFinished',['../class_p_l_e_n2_1_1_motion_controller.html#a128774c5e31fb9cbe79d50753f5cac7d',1,'PLEN2::MotionController']]]
+  ['get',['get',['../class_p_l_e_n2_1_1_motion_1_1_header.html#a9bbf2b45b2d10e51576a1a7228964157',1,'PLEN2::Motion::Header::get()'],['../class_p_l_e_n2_1_1_motion_1_1_frame.html#a980354574bb54cf1164a31981819c1a3',1,'PLEN2::Motion::Frame::get()']]],
+  ['getaccx',['getAccX',['../class_p_l_e_n2_1_1_acceleration_gyro_sensor.html#a6b7f6aae1f449604a9e255235f985cfb',1,'PLEN2::AccelerationGyroSensor']]],
+  ['getaccy',['getAccY',['../class_p_l_e_n2_1_1_acceleration_gyro_sensor.html#ab130bf8643b895c3844adfdedfb0e057',1,'PLEN2::AccelerationGyroSensor']]],
+  ['getaccz',['getAccZ',['../class_p_l_e_n2_1_1_acceleration_gyro_sensor.html#ad81f3f00a45e70c73abc94300a9cf6c4',1,'PLEN2::AccelerationGyroSensor']]],
+  ['getgyropitch',['getGyroPitch',['../class_p_l_e_n2_1_1_acceleration_gyro_sensor.html#a2216adcb2b4bc12251b327e6178f9500',1,'PLEN2::AccelerationGyroSensor']]],
+  ['getgyroroll',['getGyroRoll',['../class_p_l_e_n2_1_1_acceleration_gyro_sensor.html#ab52be3322fab2e9defcc25f973067875',1,'PLEN2::AccelerationGyroSensor']]],
+  ['getgyroyaw',['getGyroYaw',['../class_p_l_e_n2_1_1_acceleration_gyro_sensor.html#a20d4567ffc3321b6d314c862424390b5',1,'PLEN2::AccelerationGyroSensor']]],
+  ['gethomeangle',['getHomeAngle',['../class_p_l_e_n2_1_1_joint_controller.html#a6b56228246d0d6dfb6251aa2f266493d',1,'PLEN2::JointController']]],
+  ['getmaxangle',['getMaxAngle',['../class_p_l_e_n2_1_1_joint_controller.html#a4af4f656ca5cf735e0ca9e092ccdc975',1,'PLEN2::JointController']]],
+  ['getminangle',['getMinAngle',['../class_p_l_e_n2_1_1_joint_controller.html#a29c20b059bf0730db4cf3dbea95d1a28',1,'PLEN2::JointController']]]
 ];

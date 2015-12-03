@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['state_5feoe',['STATE_EOE',['../class_p_l_e_n2_1_1_purser_combinator.html#aee67ce8f47d41aafd39fb87c17195ddaa73e57f7f2c840ebf3409e11d208584ea',1,'PLEN2::PurserCombinator']]]
+  ['header_5fincoming',['HEADER_INCOMING',['../class_p_l_e_n2_1_1_protocol.html#a8b28d846c454333a02272314f9a65b37a4fa68fb67b9fcb95507fe48915e75cd5',1,'PLEN2::Protocol']]]
 ];
