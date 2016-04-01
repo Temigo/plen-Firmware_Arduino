@@ -14,7 +14,7 @@ var class_p_l_e_n2_1_1_motion_1_1_header =
     [ "name", "class_p_l_e_n2_1_1_motion_1_1_header.html#a1461e30416ae417ddecf6e35a9d175e6", null ],
     [ "NON_RESERVED", "class_p_l_e_n2_1_1_motion_1_1_header.html#a79b5d8120f7b4283b02ab9983104d5fc", null ],
     [ "slot", "class_p_l_e_n2_1_1_motion_1_1_header.html#a551f5637a1b05d5d3763eddf83d34c46", null ],
-    [ "stop_flags", "class_p_l_e_n2_1_1_motion_1_1_header.html#a547e9cb9649e87447939218bc6b3c62a", null ],
+    [ "stop_flags", "class_p_l_e_n2_1_1_motion_1_1_header.html#ae7eff51509cd2a306a3f6ddf3b8d01e0", null ],
     [ "use_extra", "class_p_l_e_n2_1_1_motion_1_1_header.html#a8ca46d5280445b23c0e85d016a97098d", null ],
     [ "use_jump", "class_p_l_e_n2_1_1_motion_1_1_header.html#aa001077f1bdb891bb12bb4105ead77c7", null ],
     [ "use_loop", "class_p_l_e_n2_1_1_motion_1_1_header.html#a7df3d3fecfee45307837662a99dd3ab7", null ]

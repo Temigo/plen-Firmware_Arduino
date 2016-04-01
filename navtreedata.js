@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "PLEN2 - Firmware for Arduino (Atmega32u4)", "index.html", [
+    [ "Todo List", "todo.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [

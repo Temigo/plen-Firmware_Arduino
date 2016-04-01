@@ -18,7 +18,7 @@ var searchData=
   ['state',['State',['../class_p_l_e_n2_1_1_protocol.html#a8b28d846c454333a02272314f9a65b37',1,'PLEN2::Protocol']]],
   ['state_5feoe',['STATE_EOE',['../class_p_l_e_n2_1_1_protocol.html#a8b28d846c454333a02272314f9a65b37a47d840b102d96f3c39a002ca2c302460',1,'PLEN2::Protocol']]],
   ['stop',['stop',['../class_p_l_e_n2_1_1_motion_controller.html#a729bf985cf9091bb5a9a47546c54f86b',1,'PLEN2::MotionController']]],
-  ['stop_5fflags',['stop_flags',['../class_p_l_e_n2_1_1_motion_1_1_header.html#a547e9cb9649e87447939218bc6b3c62a',1,'PLEN2::Motion::Header']]],
+  ['stop_5fflags',['stop_flags',['../class_p_l_e_n2_1_1_motion_1_1_header.html#ae7eff51509cd2a306a3f6ddf3b8d01e0',1,'PLEN2::Motion::Header']]],
   ['stringgroupparser',['StringGroupParser',['../class_utility_1_1_string_group_parser.html#a08cd875889e9402e1a2dab5668ac3089',1,'Utility::StringGroupParser']]],
   ['stringgroupparser',['StringGroupParser',['../class_utility_1_1_string_group_parser.html',1,'Utility']]],
   ['sum',['SUM',['../class_p_l_e_n2_1_1_joint_controller.html#ad9d04892b4a89100dfca4bcc9f07a774a55ab612b462b61197c195bf312043899',1,'PLEN2::JointController::SUM()'],['../class_p_l_e_n2_1_1_joint_controller_1_1_multiplexer.html#a577b282c00a568b10a87118148c3794e',1,'PLEN2::JointController::Multiplexer::SUM()']]],
