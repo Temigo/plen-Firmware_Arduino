@@ -69,25 +69,14 @@ void PLEN2::AccelerationGyroSensor::sampling()
 
         char  read_count = 0;
         char* filler = reinterpret_cast<char*>(m_values);
-        //System::USBSerial().print(SUM * sizeof(int));
+
         while (read_count < SUM * sizeof(int)) {
-          /*if (read_count == SUM) {
-              digitalWrite(Pin::RS485_TXD(), HIGH);
-      
-              System::BLESerial().write('<');
-              System::BLESerial().flush();
-      
-              digitalWrite(Pin::RS485_TXD(), LOW);
-      
-              delay(10);           
-          }
-          while (!System::BLESerial().available());*/
           filler[read_count++] = System::BLESerial().read();
         }
 
         // @attention For skipping to read '\n'.
         System::BLESerial().read();
-  
+
         for (int index = 0; index < SUM; index++)
         {
           endian_cast(m_values[index]);
@@ -187,4 +176,3 @@ void PLEN2::AccelerationGyroSensor::dump()
 
 	System::outputSerial().println(F("}"));
 }
-
