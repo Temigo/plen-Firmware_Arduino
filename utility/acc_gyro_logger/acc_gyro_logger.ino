@@ -13,16 +13,11 @@ namespace
 void setup()
 {
 	volatile PLEN2::System s;
-
-	while (!Serial);
-
-	delay(3000); //!< @attention A wait for starting up BLE MCU's firmware
 }
 
 void loop()
 {
 	acc_gyro.sampling();
 	acc_gyro.dump();
-
 	delay(500);
 }
