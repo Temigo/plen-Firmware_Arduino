@@ -41,52 +41,52 @@ public:
 
 		@attention
 		The method has a deadlock of interruption and communication wait
-		because it to communicate with the sensor through a bus,
-		so using in constructor and interruption vector is deprecated.
+		because it communicates with the sensor through a bus,
+		so using it in constructor and interruption vector is deprecated.
 		<br><br>
 		The order of power supplied or firmware startup timing is base-board, head-board.
 		If the method calls from early timing, program freezes because synchronism of communication is missed.
-		(Generally, it is going to success setup() inserts 3000[msec] delays.)
+		(Generally, after setup() insert a 3000[msec] delay for success.)
 	*/
 	void sampling();
 
 	/*!
-		@brief Get X axis's acceleration
+		@brief Get acceleration on X axis
 
-		@return X axis's acceleration
+		@return acceleration on X axis
 
 		@attention
-		Return cached value at run the sampling method.
+		Return the value cached at the runtime of the sampling method.
 	*/
 	const int& getAccX();
 
 	/*!
-		@brief Get Y axis's acceleration
+		@brief Get acceleration on Y axis
 
-		@return Y axis's acceleration
+		@return acceleration on Y axis
 
 		@attention
-		Return cached value at run the sampling method.
+		Return the value cached at the runtime of the sampling method.
 	*/
 	const int& getAccY();
 
 	/*!
-		@brief Get Z axis's acceleration
+		@brief Get acceleration on Z axis
 
-		@return Z axis's acceleration
+		@return acceleration on Z axis
 
 		@attention
-		Return cached value at run the sampling method.
+		Return the value cached at the runtime of the sampling method.
 	*/
 	const int& getAccZ();
 
 	/*!
-		@brief Get roll (rotation axis on X axis) axis's angular velocity
+		@brief Get angular velocity of roll axis (rotation axis on X axis)
 
-		@return Roll axis's angular velocity
+		@return Angular velocity of roll axis
 
 		@attention
-		Return cached value at run the sampling method.
+		Return the value cached at the runtime of the sampling method.
 	*/
 	const int& getGyroRoll();
 
@@ -96,7 +96,7 @@ public:
 		@return Pitch axis's angular velocity
 
 		@attention
-		Return cached value at run the sampling method.
+		Return the value cached at the runtime of the sampling method.
 	*/
 	const int& getGyroPitch();
 
@@ -106,14 +106,14 @@ public:
 		@return Yaw axis's angular velocity
 
 		@attention
-		Return cached value at run the sampling method.
+		Return the value cached at the runtime of the sampling method.
 	*/
 	const int& getGyroYaw();
 
 	/*!
 		@brief Dump all sensor values after sampling
 
-		Outputs result like JSON format below.
+		Outputs result in JSON format as below.
 		@code
 		{
 			"Acc X": <integer>,
